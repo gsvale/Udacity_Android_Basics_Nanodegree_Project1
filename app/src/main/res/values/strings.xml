@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="restaurant_name">Vale\'s Restaurant</string>
+    <string name="restaurant_slogan">Because there\'s no place better !</string>
+    <string name="restaurant_description">Come to our restaurant, you won\'t be sorry !\n We have all the best type of meat, fish, and everything to make your mouth water. \n What are you waiting for ??!! </string>
+    <string name="restaurant_contact">+351 912719221</string>
+    <string name="restaurant_email">vale_restaurant@gmail.com</string>
+    <string name="restaurant_address">Nicolau Nasoni Street 421, Maia</string>
+    <string name="restaurant_schedule">Monday to Sunday, 11AM - 11PM</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_restaurant_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/restaurant_name"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+             />
+
+        <ImageView
+            android:id="@+id/iv_restaurant_photo_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/restaurant_photo"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_restaurant_slogan_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorWhite"
+            android:text="@string/restaurant_slogan"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_restaurant_description_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/restaurant_description"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_restaurant_contact_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="normal"
+                    android:text="@string/restaurant_contact"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_restaurant_contact_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/restaurant_contact"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_restaurant_email_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="normal"
+                    android:text="@string/restaurant_email"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_restaurant_email_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/restaurant_email"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_restaurant_address_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="normal"
+                    android:text="@string/restaurant_address"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_restaurant_address_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/restaurant_address"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_restaurant_schedule_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="normal"
+                    android:text="@string/restaurant_schedule"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_restaurant_schedule_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/restaurant_schedule"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
